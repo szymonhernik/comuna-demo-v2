@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Picolo";
+  src: url("./fonts/JTPicolo-Regular.woff2") format("woff2");
+  font-weight: 400; /* Normal weight */
+}
+
+@font-face {
+  font-family: "Picolo";
+  src: url("./fonts/JTPicolo-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400; /* Normal weight, italic */
+}
+
+@font-face {
+  font-family: "Picolo";
+  src: url("./fonts/JTPicolo-Medium.woff2") format("woff2");
+  font-weight: 500; /* Medium weight */
+}
+
+@font-face {
+  font-family: "Picolo";
+  src: url("./fonts/JTPicolo-MediumItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 500; /* Medium weight, italic */
+}
+
+.bolder {
+  font-weight: medium;
+}
+/* Hide default cursor on hover */
+.hover-link {
+  cursor: none;
+}
+
+/* .hover-link:hover {
+  text-decoration: none;
+} */
+
+/* Style for the GIF container */
+.custom-cursor {
+  display: none; /* Hidden by default */
+  position: absolute;
+  z-index: 1000; /* Ensure it's above other content */
+  pointer-events: none; /* Allows clicking through it */
+}
+
+/* reset default css styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Picolo", sans-serif;
+}
+
+.news:hover h3 {
+  color: #ff95bb;
+}
+
+.news:hover span svg path {
+  stroke: #ff95bb;
+}
+.news:hover span svg path {
+  stroke: #ff95bb;
+}
+.news:hover img {
+  /* opacity: 50%; */
+  mix-blend-mode: screen;
+}
+.news:hover .ghost-rect {
+  background-color: #ff95bb;
+  opacity: 78%;
+  z-index: -100;
+}
