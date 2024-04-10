@@ -10,7 +10,7 @@
   <body>
     <nav class="space-y-2">
       <div class="text-3xl font-medium pt-8 px-6 flex justify-between">
-        <a class="hover-link"> <h1 class="">TEATR KOMUNA WARSZAWA</h1> </a>
+        <a class="link"> <h1 class="">TEATR KOMUNA WARSZAWA</h1> </a>
         <div class="flex items-center gap-[8px]">
           <svg
             width="24"
@@ -86,9 +86,9 @@
       <!-- add big stroke below -->
       <div class="border-[0.5px] border-black mx-4"></div>
       <div class="text-2xl flex gap-4 px-6 font-medium">
-        <a class="hover-link"><div>Kalendarz</div></a>
-        <a class="hover-link"><div>Bilety</div></a>
-        <a class="hover-link"
+        <a class="link"><div>Kalendarz</div></a>
+        <a class="link"><div>Bilety</div></a>
+        <a class="link"
           ><div class="flex items-center gap-2">
             Program
             <span
@@ -106,7 +106,7 @@
               </svg>
             </span></div
         ></a>
-        <a class="hover-link"
+        <a class="link"
           ><div class="flex items-center gap-2">
             Rezydencje
             <span
@@ -124,17 +124,20 @@
               </svg>
             </span></div
         ></a>
-        <a class="hover-link"> <div>O nas</div></a>
-        <a class="hover-link"><div>Miejsce</div></a>
+        <a class="link"> <div>O nas</div></a>
+        <a class="link"><div>Miejsce</div></a>
       </div>
     </nav>
-    <div class="px-6 py-16 w-full">
-      <h2 class="italic font-normal">SPICY</h2>
+    <div class="px-6 py-8 w-full">
       <div class="border-[0.5px] border-black mt-8"></div>
       <a class="hover-link">
-        <div class="flex justify-between px-4 py-4 news">
+        <div class="flex justify-between px-4 py-4 news group">
           <div class="flex items-center gap-8">
-            <h3 class="text-8xl tracking-tight font-medium">OPEN CALL</h3>
+            <h3
+              class="text-8xl tracking-tight font-medium transition-all group-hover:text-[#ff95bb]"
+            >
+              OPEN CALL
+            </h3>
             <p>
               –03.2023 <br />
               TWARDA MIŁOŚĆ
@@ -169,10 +172,12 @@
       </a>
       <div class="border-[0.5px] border-black"></div>
       <a class="hover-link">
-        <div class="news">
+        <div class="news ease-in-out group">
           <div class="flex justify-between px-4 py-4">
             <div class="flex items-center gap-8">
-              <h3 class="text-8xl tracking-tight font-medium w-min">
+              <h3
+                class="text-8xl tracking-tight font-medium w-min transition-all duration-500 group-hover:text-[#ff95bb]"
+              >
                 Premiera: Rapeflower
               </h3>
               <p>reż. Hana Umeda</p>
@@ -204,8 +209,13 @@
             </span>
           </div>
 
-          <div class="h-[50vh] overflow-hidden mx-2 image-hold relative">
-            <img class="w-full z-[1]" src="images/p1.jpeg" />
+          <div
+            class="h-[50vh] overflow-hidden mx-2 bg-[#FFA5D3] image-hold relative"
+          >
+            <img
+              class="w-full z-[1] filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
+              src="images/p1.jpeg"
+            />
             <div
               class="ghost-rect absolute w-full h-full top-0 left-0 z-[-10]"
             ></div>
@@ -216,10 +226,12 @@
         <h2 class="italic font-normal">TERAZ W KOMUNIE</h2>
         <div class="grid gap-6 grid-cols-3 mt-8">
           <div class="w-full aspect-[3/4]">
-            <a class="hover-link news">
-              <div class="h-full object-cover bg-red-200 image-hold relative">
+            <a class="hover-link news group">
+              <div
+                class="h-full object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+              >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
                   src="images/p2.jpeg"
                 />
                 <div
@@ -227,15 +239,21 @@
                 ></div>
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
-              <h3 class="text-3xl font-medium">Bang Bang Bodies</h3>
+              <h3
+                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+              >
+                Bang Bang Bodies
+              </h3>
               <p>chor. Xenia Koghilaki</p>
             </a>
           </div>
           <div class="w-full aspect-[3/4]">
-            <a class="hover-link news">
-              <div class="h-1/2 object-cover bg-red-200 image-hold relative">
+            <a class="hover-link news group">
+              <div
+                class="h-1/2 object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+              >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
                   src="images/p4.jpg"
                 />
                 <div
@@ -243,15 +261,21 @@
                 ></div>
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
-              <h3 class="text-3xl font-medium">Bang Bang Bodies</h3>
+              <h3
+                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+              >
+                Bang Bang Bodies
+              </h3>
               <p>chor. Xenia Koghilaki</p>
             </a>
           </div>
           <div class="w-full aspect-[3/4]">
-            <a class="hover-link news">
-              <div class="h-full object-cover bg-red-200 image-hold relative">
+            <a class="hover-link news group">
+              <div
+                class="h-full object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+              >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
                   src="images/p3.jpg"
                 />
                 <div
@@ -259,7 +283,11 @@
                 ></div>
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
-              <h3 class="text-3xl font-medium">Bang Bang Bodies</h3>
+              <h3
+                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+              >
+                Bang Bang Bodies
+              </h3>
               <p>chor. Xenia Koghilaki</p>
             </a>
           </div>

@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Create the container for the animated GIF
   var cursorGif = document.createElement("img");
-  cursorGif.src = "kursor-paznokiec-orange.gif"; // Set to your GIF's path
+  // cursorGif.src = "kursor-xxx.svg"; // Set to your GIF's path
+  cursorGif.src = "czarny.svg"; // Set to your GIF's path
   cursorGif.className = "custom-cursor";
   document.body.appendChild(cursorGif);
 
@@ -11,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to move the GIF to cursor position
   function moveGif(e) {
-    var xOffset = 20; // Distance to move left from the cursor, adjust as needed
+    var xOffset = 10; // Distance to move left from the cursor, adjust as needed
     cursorGif.style.left = e.pageX - xOffset + "px"; // Adjust left position
 
     cursorGif.style.top = e.pageY + "px";

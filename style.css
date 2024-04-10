@@ -36,6 +36,10 @@
   text-decoration: none;
 } */
 
+a.link {
+  cursor: pointer;
+}
+
 /* Style for the GIF container */
 .custom-cursor {
   display: none; /* Hidden by default */
@@ -63,21 +67,18 @@ body {
 }
 
 .news:hover h3 {
-  color: #ff95bb;
+  /* color: #ff95bb; */
 }
 
 .news:hover span svg path {
   stroke: #ff95bb;
 }
-.news:hover span svg path {
-  stroke: #ff95bb;
-}
 .news:hover img {
   /* opacity: 50%; */
-  mix-blend-mode: screen;
+  /* mix-blend-mode: screen; */
 }
 .news:hover .ghost-rect {
-  background-color: #ff95bb;
-  opacity: 78%;
-  z-index: -100;
+  background-color: lightgrey;
+  opacity: 20%;
+  z-index: -10000;
 }
