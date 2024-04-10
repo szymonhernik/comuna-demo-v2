@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.appendChild(cursorGif);
 
   // Set the size of the GIF
-  cursorGif.style.width = "150px"; // Adjust width as needed
+  cursorGif.style.width = "100px"; // Adjust width as needed
   cursorGif.style.height = "auto"; // Adjust height as needed, 'auto' keeps the aspect ratio
 
   // Function to move the GIF to cursor position
