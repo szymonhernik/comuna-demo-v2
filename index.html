@@ -3,12 +3,12 @@
   <head>
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Custom Cursor GIF</title>
+    <title>Komuna Demo</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- import fonts from fonts folder -->
   </head>
   <body>
-    <nav class="space-y-2">
+    <nav class="space-y-2 sticky top-0 left-0 bg-white z-[10000]">
       <div class="text-3xl font-medium pt-8 px-6 flex justify-between">
         <a class="link"> <h1 class="">TEATR KOMUNA WARSZAWA</h1> </a>
         <div class="flex items-center gap-[8px]">
@@ -127,14 +127,15 @@
         <a class="link"> <div>O nas</div></a>
         <a class="link"><div>Miejsce</div></a>
       </div>
+      <div class="border-[0.5px] border-black mx-4"></div>
     </nav>
-    <div class="px-6 py-8 w-full">
+    <div class="px-6 py-8 w-full flex flex-col gap-4">
       <div class="border-[0.5px] border-black mt-8"></div>
       <a class="hover-link">
         <div class="flex justify-between px-4 py-4 news group">
-          <div class="flex items-center gap-8">
+          <div class="flex flex-col gap-8">
             <h3
-              class="text-8xl tracking-tight font-medium transition-all group-hover:text-[#ff95bb]"
+              class="text-7xl tracking-tight font-medium transition-all group-hover:text-[#A58927]"
             >
               OPEN CALL
             </h3>
@@ -172,11 +173,19 @@
       </a>
       <div class="border-[0.5px] border-black"></div>
       <a class="hover-link">
-        <div class="news ease-in-out group">
-          <div class="flex justify-between px-4 py-4">
-            <div class="flex items-center gap-8">
+        <div class="news ease-in-out group flex">
+          <div
+            class="w-[40vw] overflow-hidden mx-2 image-hold relative group-hover:backdrop-contrast-50"
+          >
+            <img
+              class="w-full z-[1] filter group-hover:opacity-70 group-hover:saturate-0 group-hover:brightness-[4] transition-all duration-200"
+              src="images/p4.jpg"
+            />
+          </div>
+          <div class="flex justify-between px-4 py-4 grow">
+            <div class="flex flex-col gap-8">
               <h3
-                class="text-8xl tracking-tight font-medium w-min transition-all duration-500 group-hover:text-[#ff95bb]"
+                class="text-7xl tracking-tight font-medium w-min transition-all duration-200 group-hover:text-[#A58927]"
               >
                 Premiera: Rapeflower
               </h3>
@@ -208,18 +217,6 @@
               </svg>
             </span>
           </div>
-
-          <div
-            class="h-[50vh] overflow-hidden mx-2 bg-[#FFA5D3] image-hold relative"
-          >
-            <img
-              class="w-full z-[1] filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
-              src="images/p1.jpeg"
-            />
-            <div
-              class="ghost-rect absolute w-full h-full top-0 left-0 z-[-10]"
-            ></div>
-          </div>
         </div>
       </a>
       <div class="py-16 w-full">
@@ -228,11 +225,11 @@
           <div class="w-full aspect-[3/4]">
             <a class="hover-link news group">
               <div
-                class="h-full object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+                class="h-full object-cover image-hold relative overflow-hidden transition-all duration-200 group-hover:backdrop-contrast-50"
               >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
-                  src="images/p2.jpeg"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-70 group-hover:saturate-0 group-hover:brightness-[4] transition-all duration-200"
+                  src="images/p-2.jpg"
                 />
                 <div
                   class="ghost-rect absolute w-full h-full top-0 left-0 z-[-10]"
@@ -240,7 +237,7 @@
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
               <h3
-                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+                class="text-3xl font-medium transition-all duration-200 group-hover:text-[#A58927]"
               >
                 Bang Bang Bodies
               </h3>
@@ -250,10 +247,10 @@
           <div class="w-full aspect-[3/4]">
             <a class="hover-link news group">
               <div
-                class="h-1/2 object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+                class="h-1/2 object-cover image-hold relative overflow-hidden transition-all duration-200 group-hover:backdrop-contrast-50"
               >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-70 group-hover:saturate-0 group-hover:brightness-[4] transition-all duration-200"
                   src="images/p4.jpg"
                 />
                 <div
@@ -262,7 +259,7 @@
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
               <h3
-                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+                class="text-3xl font-medium transition-all duration-200 group-hover:text-[#A58927]"
               >
                 Bang Bang Bodies
               </h3>
@@ -272,11 +269,11 @@
           <div class="w-full aspect-[3/4]">
             <a class="hover-link news group">
               <div
-                class="h-full object-cover bg-[#FFA5D3] image-hold relative overflow-hidden"
+                class="h-full object-cover image-hold relative overflow-hidden transition-all duration-200 group-hover:backdrop-contrast-50"
               >
                 <img
-                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-30 group-hover:brightness-[1.5] transition-all duration-500"
-                  src="images/p3.jpg"
+                  class="w-auto z-[1] w-full h-full object-cover filter group-hover:opacity-70 group-hover:saturate-0 group-hover:brightness-[4] transition-all duration-200"
+                  src="images/p-1.jpg"
                 />
                 <div
                   class="ghost-rect absolute w-full h-full top-0 left-0 z-[-10]"
@@ -284,7 +281,7 @@
               </div>
               <p class="text-xl mt-2">15.12.2023</p>
               <h3
-                class="text-3xl font-medium transition-all duration-500 group-hover:text-[#ff95bb]"
+                class="text-3xl font-medium transition-all duration-200 group-hover:text-[#A58927]"
               >
                 Bang Bang Bodies
               </h3>

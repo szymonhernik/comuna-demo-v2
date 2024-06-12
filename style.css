@@ -67,11 +67,11 @@ body {
 }
 
 .news:hover h3 {
-  /* color: #ff95bb; */
+  /* color: #A58927; */
 }
 
 .news:hover span svg path {
-  stroke: #ff95bb;
+  stroke: #a58927;
 }
 .news:hover img {
   /* opacity: 50%; */
