@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.appendChild(cursorGif);
 
   // Set the size of the GIF
-  cursorGif.style.width = "80px"; // Adjust width as needed
+  cursorGif.style.width = "60px"; // Adjust width as needed
   cursorGif.style.height = "auto"; // Adjust height as needed, 'auto' keeps the aspect ratio
 
   // Function to move the GIF to cursor position
   function moveGif(e) {
-    var xOffset = 36; // Distance to move left from the cursor, adjust as needed
-    var yOffset = 36; // Distance to move bottom from the cursor, adjust as needed
+    var xOffset = 26; // Distance to move left from the cursor, adjust as needed
+    var yOffset = 26; // Distance to move bottom from the cursor, adjust as needed
     cursorGif.style.left = e.pageX - xOffset + "px"; // Adjust left position
 
     cursorGif.style.top = e.pageY - yOffset + "px";
